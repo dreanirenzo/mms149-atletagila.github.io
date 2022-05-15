@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(229, 225, 155);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
