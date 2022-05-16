@@ -8,14 +8,14 @@
 </head>
 
 <body>
-  <form method="POST" action="https://script.google.com/macros/s/AKfycbwR-xA74ezxKdG0OFN0TH5Si_ZEJe3iNybYyYcyVXsbAecZh9iN7TJwS2ydgG7UEGAA/exec">
+  <form method="POST" action="https://script.google.com/macros/s/AKfycbz9HIOoOtjfpE617x6x8elqHsVJYrr1gaE7JEqjVhHiUSoxo2kXM5P9l1Jv1r7OAMuBYQ/exec">
     <table class="center" style="font-family: Arial;">
       <tr>
         <td>
           Name:
         </td>
         <td>
-          <input type="text" required name="ChildName">
+          <input placeholder="First Name Last Name" input type="text" required name="ChildName">
         </td>
       </tr>
       <tr>
@@ -23,7 +23,7 @@
           Age:
         </td>
         <td>
-          <input type="text" required name="Age">
+          <input placeholder="above 4 only" input type="number" name="Age" min="4" max="99">
         </td>
       </tr>
       <tr>
@@ -31,7 +31,7 @@
           Parent/Guardian's name:
         </td>
         <td>
-          <input type="text" required name="ParentName">
+          <input placeholder="First Name Last Name" input type="text" required name="ParentName">
         </td>
       </tr>
       <tr>
@@ -39,7 +39,7 @@
             Parent/Guardian's contact number:
           </td>
           <td>
-            <input type="text" require name="Contact">
+            <input placeholder="09** *** ****" input type="text" require name="Contact" pattern="[0-9]{11}">
           </td>
       </tr>
       <tr>
